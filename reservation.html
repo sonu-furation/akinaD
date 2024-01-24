@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Fri Jun 30 2023 12:13:51 GMT+0000 (Coordinated Universal Time)  -->
+<html
+  data-wf-page="641eea8819872867fa2d7ef0"
+  data-wf-site="63b54871bad47141b4e24db4"
+  lang="en"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Reservation</title>
+    <meta
+      content="Easily make a reservation at Akina and secure your spot to indulge in our delicious fusion of traditional Japanese and contemporary flavours. Book now to experience exceptional dining."
+      name="description"
+    />
+    <meta content="Reservation" property="og:title" />
+    <meta
+      content="Easily make a reservation at Akina and secure your spot to indulge in our delicious fusion of traditional Japanese and contemporary flavours. Book now to experience exceptional dining."
+      property="og:description"
+    />
+    <meta
+      content="https://uploads-ssl.webflow.com/63b54871bad47141b4e24db4/63dd491d80131610f77f863b_akina_seo_logo.jpg"
+      property="og:image"
+    />
+    <meta content="Reservation" property="twitter:title" />
+    <meta
+      content="Easily make a reservation at Akina and secure your spot to indulge in our delicious fusion of traditional Japanese and contemporary flavours. Book now to experience exceptional dining."
+      property="twitter:description"
+    />
+    <meta
+      content="https://uploads-ssl.webflow.com/63b54871bad47141b4e24db4/63dd491d80131610f77f863b_akina_seo_logo.jpg"
+      property="twitter:image"
+    />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+    <link
+      href="css/akina-0e1a32.webflow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "PT Serif:400,400italic,700,700italic",
+            "PT Sans:400,400italic,700,700italic",
+            "Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+            "Great Vibes:400",
+            "Lovers Quarrel:regular",
+          ],
+        },
+      });
+    </script>
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/webclip.jpg" rel="apple-touch-icon" />
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-VZT11G4HN4"
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-VZT11G4HN4", { anonymize_ip: false });
+    </script>
+    <meta name="format-detection" content="telephone=no" />
+    <!--  Google tag (gtag.js)  -->
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-VZT11G4HN4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-VZT11G4HN4");
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://fengyuanchen.github.io/datepicker/css/datepicker.css"
+    />
+  </head>
+
+  <body>
+    <script>
+      const localLang = localStorage.getItem("local") || "en-lang";
+      const language = (key, local) => {
+        const sentences = {
+          HeroHeading: {
+            "en-lang": "Private Events",
+            "jp-lang": "プライベートイベント",
+          },
+          HeroHeadingPara: {
+            "en-lang":
+              "Host your own Curated Experience for exclusive private events or large group bookings.",
+            "jp-lang":
+              "独占的なプライベートイベントや大規模なグループ予約のために、独自に厳選されたエクスペリエンスを主催します。",
+          },
+          HeroButton: {
+            "en-lang": "Make an Enquiry",
+            "jp-lang": "お問い合わせをする",
+          },
+
+          secondHeroSectionPara: {
+            "en-lang":
+              "AKINA is a modern restaurant and lounge characterized by elegance and mystique portraying a modern interpretation of Japanese culture and design. Our colour palette consisted of dark hues including red, black, and brass. We utilized reflective and holographic material to enhance the modern concept of the space. The use of rounded edges and circular shapes was inspired by water design elements giving the illusion of movement in the space. These design elements were inspired by Japanese symbolism of water which signifies purity and cleansing. The use of chrome and brass in the space offers a sense of elegance and sophistication which aligns seamlessly with our concept of a maximalist and opulent design.",
+            "jp-lang":
+              "AKINAは、日本の文化とデザインを現代的に解釈した、優雅さと神秘性を特徴とするモダンなレストラン＆ラウンジです。私たちのカラーパレットは、赤、黒、真鍮などの暗い色合いで構成されていました。空間のモダンなコンセプトを強化するために、反射素材とホログラフィック素材を利用しました。丸みを帯びたエッジと円形の形状の使用は、空間に動きの錯覚を与える水のデザイン要素からインスピレーションを得ています。これらのデザイン要素は、純粋さと浄化を意味する日本の水の象徴からインスピレーションを得ています。空間内でのクロムと真鍮の使用は、マキシマリストで贅沢なデザインのコンセプトとシームレスに一致する優雅さと洗練の感覚を提供します。",
+          },
+          callNowButton: {
+            "en-lang": "Call Now",
+            "jp-lang": "今すぐ電話してください",
+          },
+          PrevPara: {
+            "en-lang":
+              "A place where the combination of beguiling décor, enthralling cocktails and glowing hospitality, all driven by the profoundest desire to enchant and delight, can trigger a genuinely transcendental experience.",
+            "jp-lang":
+              "魅惑的な装飾、魅惑的なカクテル、熱烈なおもてなしの組み合わせが、すべてを魅了し喜ばせたいという最も深い欲求によって動かされ、真に超越的な体験を引き起こすことができる場所です。",
+          },
+          eventEnquary: {
+            "en-lang": "Event Inquiry",
+            "jp-lang": "イベントに関するお問い合わせ",
+          },
+          eventEnquaryPara: {
+            "en-lang": "Please help us with your details in the following form",
+            "jp-lang": "次のフォームに詳細情報をご記入ください。",
+          },
+          firstName: {
+            "en-lang": "First Name",
+            "jp-lang": "ファーストネーム",
+          },
+          lastName: {
+            "en-lang": "Last Name",
+            "jp-lang": "苗字",
+          },
+          Email: {
+            "en-lang": "Email",
+            "jp-lang": "Eメール",
+          },
+          phoneNumber: {
+            "en-lang": "Phone Number",
+            "jp-lang": "電話番号",
+          },
+          NumberOfGuest: {
+            "en-lang": "Number of Guests",
+            "jp-lang": "客数",
+          },
+          EventDate: {
+            "en-lang": "Event Date",
+            "jp-lang": "開催日",
+          },
+          eventDes: {
+            "en-lang": "Enter Event Details in brief",
+            "jp-lang": "イベントの詳細を簡単に入力します",
+          },
+          SubmitNow: {
+            "en-lang": "Submit Now",
+            "jp-lang": "今提出",
+          },
+          FooterPara1Reservation: {
+            "en-lang": "CONTEMPORARY JAPANESE RESTAURANT & BAR",
+            "jp-lang": "現代的な日本料理レストラン＆バー",
+          },
+          FooterPara2p1: {
+            "en-lang": "From a",
+            "jp-lang": "から",
+          },
+          FooterPara2p2: {
+            "en-lang": "far away",
+            "jp-lang": "遠く離れた",
+          },
+          FooterPara2p3: {
+            "en-lang": "land where",
+            "jp-lang": "どこに土地を置くか",
+          },
+          FooterPara2p4: {
+            "en-lang": "two cultures",
+            "jp-lang": "二つの文化",
+          },
+          FooterPara2p5: {
+            "en-lang": "collide",
+            "jp-lang": "衝突する",
+          },
+          FooterPara2p6: {
+            "en-lang": "An explosion",
+            "jp-lang": "爆発",
+          },
+          FooterPara2p7: {
+            "en-lang": "that gave birth",
+            "jp-lang": "それが産んだ",
+          },
+          FooterPara2p8: {
+            "en-lang": "to a",
+            "jp-lang": "に",
+          },
+          FooterPara2p9: {
+            "en-lang": "culinary gold mine",
+            "jp-lang": "料理の金鉱",
+          },
+          FooterHours: {
+            "en-lang": "Hours",
+            "jp-lang": "時間",
+          },
+          FooterMonday: {
+            "en-lang": "Monday - Friday : 7:30PM - 1AM",
+            "jp-lang": "月曜日～金曜日 : 午後 7 時 30 分～午前 1 時",
+          },
+          FooterSunday: {
+            "en-lang": "Sunday : 12:30PM - 3:30PM",
+            "jp-lang": "日曜日 : 午後 12 時 30 分～午後 3 時 30 分",
+          },
+          FooterSaturday: {
+            "en-lang": "Saturday - Sunday : 7:30PM - 1AM",
+            "jp-lang": "土曜日～日曜日 : 午後 7 時 30 分～午前 1 時",
+          },
+          ReachOut: {
+            "en-lang": "Reach out to us for reservations at:",
+            "jp-lang": "ご予約については、次のアドレスまでご連絡ください。",
+          },
+          FooterLinkAboutUs: {
+            "en-lang": "About Us",
+            "jp-lang": "私たちについて",
+          },
+          FooterLinkGallery: {
+            "en-lang": "Gallery",
+            "jp-lang": "ギャラリー",
+          },
+          FooterLinkMenu: {
+            "en-lang": "Menu",
+            "jp-lang": "メニュー",
+          },
+          FooterLinkPrivé: {
+            "en-lang": "Privé",
+            "jp-lang": "プリヴェ",
+          },
+          FooterLinkReservations: {
+            "en-lang": "Reservations",
+            "jp-lang": "予約",
+          },
+          FooterAddressPrive: {
+            "en-lang":
+              "Golden Palace, Turner Rd, opposite Next to Union Bank, Bandra West, Mumbai, Maharashtra          400050",
+            "jp-lang":
+              "Golden Palace, Turner Rd, opposite Next to Union Bank, Bandra West, Mumbai, Maharashtra          400050",
+          },
+          FooterBottomText: {
+            "en-lang": "@2023 HAS Restaurants LLP All Rights Reserved",
+            "jp-lang": "@2023 HAS Restaurants LLP 無断複写・転載を禁じます",
+          },
+          PrivacyPolicy: {
+            "en-lang": "Privacy Policy",
+            "jp-lang": "プライバシーポリシー",
+          },
+          DesignedBy: {
+            "en-lang": "Designed & Developed by furation.tech",
+            "jp-lang": "furation.tech によって設計および開発されました",
+          },
+        };
+
+        return sentences[key][local] || "";
+      };
+    </script>
+    <div class="section-7 wf-section">
+      <div class="div-block-58">
+        <a href="index.html" class="link-block-5 w-inline-block"
+          ><img src="images/akina.svg" loading="lazy" alt="" class="image-17"
+        /></a>
+      </div>
+      <div
+        data-w-id="dd3d49c1-8d09-900b-f3c4-2cd44beeaec1"
+        style="opacity: 0"
+        class="container-5 w-container"
+      >
+        <div class="div-block-60">
+          <h1 class="heading-8">
+            <!-- Private Events  -->
+            <script>
+              document.write(language("HeroHeading", localLang));
+            </script>
+          </h1>
+          <p class="para1">
+            <!-- Host your own Curated Experience for exclusive private events or large group bookings. -->
+
+            <script>
+              document.write(language("HeroHeadingPara", localLang));
+            </script>
+          </p>
+          <a href="#event-query" class="button-4 w-button">
+            <!-- Make an Enquiry -->
+            <script>
+              document.write(language("HeroButton", localLang));
+            </script>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="akina wf-section">
+      <div class="container-5-copy w-container">
+        <img src="images/akina.svg" loading="lazy" alt="" class="image-19" />
+        <p class="paragraph-13">
+          <!-- AKINA is a modern restaurant and lounge characterized by elegance and mystique portraying
+        a modern interpretation of Japanese culture and design. Our colour palette consisted of dark hues including red,
+        black, and brass. We utilized reflective and holographic material to enhance the modern concept of the space.
+        The use of rounded edges and circular shapes was inspired by water design elements giving the illusion of
+        movement in the space. These design elements were inspired by Japanese symbolism of water which signifies purity
+        and cleansing. The use of chrome and brass in the space offers a sense of elegance and sophistication which
+        aligns seamlessly with our concept of a maximalist and opulent design. -->
+
+          <script>
+            document.write(language("secondHeroSectionPara", localLang));
+          </script>
+        </p>
+        <a href="tel:918976452899" class="button-4 w-button">
+          <!-- Call Now -->
+
+          <script>
+            document.write(language("callNowButton", localLang));
+          </script>
+        </a>
+      </div>
+    </div>
+    <div
+      data-poster-url="https://uploads-ssl.webflow.com/63b54871bad47141b4e24db4/63b677dc9745775fae21a64b_PRIVE CONTENT -poster-00001.jpg"
+      data-video-urls="https://uploads-ssl.webflow.com/63b54871bad47141b4e24db4/63b677dc9745775fae21a64b_PRIVE CONTENT -transcode.mp4,https://uploads-ssl.webflow.com/63b54871bad47141b4e24db4/63b677dc9745775fae21a64b_PRIVE CONTENT -transcode.webm"
+      data-autoplay="true"
+      data-loop="true"
+      data-wf-ignore="true"
+      class="background-video w-background-video w-background-video-atom"
+    >
+      <video
+        id="b4bb0ba4-92c0-ae2c-6dbc-734b8cceba9d-video"
+        autoplay=""
+        loop=""
+        style="
+          background-image: url('https://uploads-ssl.webflow.com/63b54871bad47141b4e24db4/63b677dc9745775fae21a64b_PRIVE CONTENT -poster-00001.jpg');
+        "
+        muted=""
+        playsinline=""
+        data-wf-ignore="true"
+        data-object-fit="cover"
+      >
+        <source
+          src="https://uploads-ssl.webflow.com/63b54871bad47141b4e24db4/63b677dc9745775fae21a64b_PRIVE CONTENT -transcode.mp4"
+          data-wf-ignore="true"
+        />
+        <source
+          src="https://uploads-ssl.webflow.com/63b54871bad47141b4e24db4/63b677dc9745775fae21a64b_PRIVE CONTENT -transcode.webm"
+          data-wf-ignore="true"
+        /></video
+      ><noscript>
+        <style>
+          [data-wf-bgvideo-fallback-img] {
+            display: none;
+          }
+
+          @media (prefers-reduced-motion: reduce) {
+            [data-wf-bgvideo-fallback-img] {
+              position: absolute;
+              z-index: -100;
+              display: inline-block;
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+            }
+          }</style
+        ><img
+          data-wf-bgvideo-fallback-img="true"
+          src="documents/PRIVE-CONTENT-.mp4"
+          alt=""
+        />
+      </noscript>
+      <div aria-live="polite">
+        <button
+          type="button"
+          data-w-bg-video-control="true"
+          aria-controls="b4bb0ba4-92c0-ae2c-6dbc-734b8cceba9d-video"
+          class="w-backgroundvideo-backgroundvideoplaypausebutton play-pause-button w-background-video--control"
+        >
+          <span
+            ><img
+              src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg"
+              alt="Pause video"
+              class="image-18" /></span
+          ><span hidden=""
+            ><img
+              src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg"
+              alt="Play video"
+          /></span>
+        </button>
+      </div>
+      <div class="container-6-copy w-container">
+        <img src="images/prive_1.svg" loading="lazy" alt="" class="image-20" />
+        <p class="paragraph-13-copy">
+          <!-- A place where the combination of beguiling décor, enthralling cocktails and glowing
+        hospitality, all driven by the profoundest desire to enchant and delight, can trigger a genuinely transcendental
+        experience. -->
+
+          <script>
+            document.write(language("PrevPara", localLang));
+          </script>
+        </p>
+        <a href="tel:919152300777" class="button-4-copy w-button">
+          <!-- Call Now -->
+          <script>
+            document.write(language("callNowButton", localLang));
+          </script>
+        </a>
+      </div>
+    </div>
+    <div id="event-query" class="form wf-section">
+      <div class="container-5-copy w-container">
+        <h1 class="heading-8">
+          <!-- Event Inquiry -->
+
+          <script>
+            document.write(language("eventEnquary", localLang));
+          </script>
+        </h1>
+        <div id="enquiry_form" class="w-form">
+          <form
+            id="email-form"
+            name="email-form"
+            data-name="Email Form"
+            method="get"
+            class="form-2"
+            data-wf-page-id="641eea8819872867fa2d7ef0"
+            data-wf-element-id="f05195a9-c2f2-54aa-2441-a277aa4bb6db"
+          >
+            <p class="paragraph-13-copy">
+              <!-- Please help us with your details in the following form -->
+
+              <script>
+                document.write(language("eventEnquaryPara", localLang));
+              </script>
+            </p>
+            <div class="w-layout-grid grid-5">
+              <div id="w-node-_2a60eb29-22ee-76be-439d-1f134b51ed09-fa2d7ef0">
+                <input
+                  type="text"
+                  class="text-field-input form_field w-input"
+                  maxlength="256"
+                  name="First-Name"
+                  data-name="First-Name"
+                  placeholder="First Name"
+                  id="First-Name"
+                  required=""
+                />
+                <script>
+                  const firstname = document.getElementById("First-Name");
+                  firstname.placeholder = language("firstName", localLang);
+                </script>
+              </div>
+              <div id="w-node-_3be37a75-2b39-8d74-354f-ad77835d9930-fa2d7ef0">
+                <input
+                  type="text"
+                  class="text-field-input form_field w-input"
+                  maxlength="256"
+                  name="Last-Name"
+                  data-name="Last-Name"
+                  placeholder="Last Name"
+                  id="Last-Name"
+                  required=""
+                />
+
+                <script>
+                  const LastName = document.getElementById("Last-Name");
+                  LastName.placeholder = language("lastName", localLang);
+                </script>
+              </div>
+            </div>
+            <div class="w-layout-grid grid-5">
+              <div id="w-node-_63596122-72b6-1e45-1018-7efa2d434cce-fa2d7ef0">
+                <input
+                  type="text"
+                  class="text-field-input form_field w-input"
+                  maxlength="256"
+                  name="Email"
+                  data-name="Email"
+                  placeholder="Email"
+                  id="Email"
+                  required=""
+                />
+                <script>
+                  const Email = document.getElementById("Email");
+                  Email.placeholder = language("Email", localLang);
+                </script>
+              </div>
+              <div id="w-node-_63596122-72b6-1e45-1018-7efa2d434cd0-fa2d7ef0">
+                <input
+                  type="tel"
+                  class="text-field-input form_field w-input"
+                  maxlength="256"
+                  name="Phone-Number"
+                  data-name="Phone Number"
+                  placeholder="Phone Number"
+                  id="Phone-Number"
+                  required=""
+                />
+                <script>
+                  const phoneNumber = document.getElementById("Phone-Number");
+                  phoneNumber.placeholder = language("phoneNumber", localLang);
+                </script>
+              </div>
+            </div>
+            <div class="w-layout-grid grid-5">
+              <div id="w-node-_4d9aba34-3a48-97a4-9076-f2c3d5536c0b-fa2d7ef0">
+                <input
+                  type="number"
+                  class="text-field-input form_field w-input"
+                  maxlength="256"
+                  name="Number-of-guests"
+                  data-name="Number-of-guests"
+                  placeholder="Number of Guests"
+                  id="Number-of-guests"
+                  required=""
+                />
+                <script>
+                  const NumberOfGuest =
+                    document.getElementById("Number-of-guests");
+                  NumberOfGuest.placeholder = language(
+                    "NumberOfGuest",
+                    localLang
+                  );
+                </script>
+              </div>
+              <div id="w-node-_4d9aba34-3a48-97a4-9076-f2c3d5536c0d-fa2d7ef0">
+                <input
+                  type="text"
+                  class="text-field-input form_field w-input"
+                  autocomplete="off"
+                  maxlength="256"
+                  name="Event-date"
+                  data-name="Event-date"
+                  placeholder="Event Date"
+                  data-toggle="datepicker"
+                  id="Event-date-2"
+                  required=""
+                />
+                <script>
+                  const EventDate = document.getElementById("Event-date-2");
+                  EventDate.placeholder = language("EventDate", localLang);
+                </script>
+              </div>
+            </div>
+            <textarea
+              placeholder="Enter Event Details in brief"
+              maxlength="5000"
+              id="Event-details-2"
+              name="Event-details"
+              data-name="Event-details"
+              class="text-field-input form_field w-input"
+            ></textarea>
+            <script>
+              const EventDescription =
+                document.getElementById("Event-details-2");
+              EventDescription.placeholder = language("eventDes", localLang);
+            </script>
+
+            <div class="div-block-57">
+              <input
+                type="submit"
+                value="Submit now"
+                data-wait="Please wait..."
+                id="submit_enquiry_form"
+                class="submit-button w-button"
+              />
+              <script>
+                const Submit = document.getElementById("submit_enquiry_form");
+                Submit.value = language("SubmitNow", localLang);
+              </script>
+            </div>
+          </form>
+          <div class="success-message w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+        <a
+          href='https://api.whatsapp.com/send?phone=+918976452899&amp;text="Hey I would like to dine in at Privè, I want to request for a reservation"'
+          target="_blank"
+          class="link-block-4 w-inline-block"
+          ><img
+            src="images/icons8-whatsapp-160.png"
+            loading="lazy"
+            alt=""
+            class="image-29"
+        /></a>
+        <div class="w-embed"></div>
+      </div>
+    </div>
+
+    <div class="footer-part-one wf-section">
+      <div class="w-container">
+        <div class="div-block-68">
+          <div class="div-block-69">
+            <div class="div-block-27">
+              <img
+                src="images/Group-1000004218.png"
+                loading="lazy"
+                width="260"
+                height="50"
+                alt=""
+                class="image-25"
+              />
+              <div class="text-block">
+                <!-- CONTEMPORARY JAPANESE RESTAURANT &amp; BAR -->
+
+                <script>
+                  document.write(language("FooterPara1Reservation", localLang));
+                </script>
+              </div>
+            </div>
+            <div class="rich-text-block w-richtext">
+              <h2>From a faraway land where</h2>
+              <p>two cultures collide</p>
+              <p>an explosion that gave birth</p>
+              <p>to a Culinary gold mine.</p>
+            </div>
+            <div
+              class="text-block-60 text-block-61 text-block-62 text-block-63 text-block-64 text-block-65 text-block-69 text-block-67 text-block-69 text-block-69 text-block-70"
+            >
+              <!-- From a  -->
+              <script>
+                document.write(language("FooterPara2p1", localLang));
+              </script>
+              <span class="text-span-4">
+                <!-- faraway -->
+                <script>
+                  document.write(language("FooterPara2p2", localLang));
+                </script>
+              </span>
+              <!-- land where -->
+              <script>
+                document.write(language("FooterPara2p3", localLang));
+              </script>
+              <br />
+              <!-- two cultures -->
+              <script>
+                document.write(language("FooterPara2p4", localLang));
+              </script>
+              <span class="text-span-5">
+                <!-- collide -->
+                <script>
+                  document.write(language("FooterPara2p5", localLang));
+                </script> </span
+              >.<br /><span class="text-span-4">
+                <!-- An explosion -->
+                <script>
+                  document.write(language("FooterPara2p6", localLang));
+                </script>
+              </span>
+              <!-- that gave birth -->
+              <script>
+                document.write(language("FooterPara2p7", localLang));
+              </script>
+              <br />
+              <!-- to a -->
+              <script>
+                document.write(language("FooterPara2p8", localLang));
+              </script>
+              <span class="text-span-7">
+                <!-- culinary gold mine -->
+                <script>
+                  document.write(language("FooterPara2p9", localLang));
+                </script> </span
+              >.
+            </div>
+          </div>
+        </div>
+        <div class="w-row">
+          <div class="w-col w-col-4">
+            <div>
+              <div class="text-block-8">
+                <!-- Hours -->
+                <script>
+                  document.write(language("FooterHours", localLang));
+                </script>
+              </div>
+              <div class="text-block-9">
+                <!-- Monday - Friday : 7:30PM - 1AM -->
+                <script>
+                  document.write(language("FooterMonday", localLang));
+                </script>
+                <br />
+                <!-- Sunday : 12:30PM - 3:30PM -->
+                <script>
+                  document.write(language("FooterSunday", localLang));
+                </script>
+                <br />
+                <!-- Saturday - Sunday : 7:30PM - 1AM -->
+                <script>
+                  document.write(language("FooterSaturday", localLang));
+                </script>
+                <br />
+              </div>
+            </div>
+            <div class="div-block-83">
+              <div class="text-block-8">
+                <!-- Reach out to us for reservations at: -->
+                <script>
+                  document.write(language("ReachOut", localLang));
+                </script>
+              </div>
+            </div>
+            <div class="div-block-84">
+              <div>
+                <div>
+                  <img
+                    src="images/Vector.png"
+                    loading="lazy"
+                    width="19"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <p class="paragraph-14">
+                <a href="tel:+918976452899" class="link-4">+918976452899</a>
+              </p>
+            </div>
+            <div class="div-block-84">
+              <div>
+                <div>
+                  <img
+                    src="images/gmail.png"
+                    loading="lazy"
+                    width="25"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <p class="paragraph-14">
+                <a href="mailto:info@akinarestaurant.com" class="link-3"
+                  >info@akinarestaurant.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="w-col w-col-3">
+            <div class="div-block-67">
+              <a href="about-us.html" class="footer-button w-button">
+                <!-- About Us -->
+
+                <script>
+                  document.write(language("FooterLinkAboutUs", localLang));
+                </script>
+              </a>
+              <a href="gallery.html" class="footer-button w-button">
+                <!-- Gallery -->
+
+                <script>
+                  document.write(language("FooterLinkGallery", localLang));
+                </script>
+              </a>
+              <a href="menu.html" class="footer-button w-button">
+                <!-- Menu -->
+
+                <script>
+                  document.write(language("FooterLinkMenu", localLang));
+                </script>
+              </a>
+              <a
+                href="prive.html"
+                aria-current="page"
+                class="footer-button w-button w--current"
+              >
+                <!-- Privé -->
+
+                <script>
+                  document.write(language("FooterLinkPrivé", localLang));
+                </script>
+              </a>
+              <a href="reservation.html" class="footer-button w-button">
+                <!-- Reservations -->
+                <script>
+                  document.write(language("FooterLinkReservations", localLang));
+                </script>
+              </a>
+            </div>
+          </div>
+          <div class="w-col w-col-5">
+            <div class="address-div">
+              <div class="rich-text-block-2 w-richtext">
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 10px;
+                  "
+                >
+                  <!-- <figure style="max-width: 15px; height: 100%;" class="w-richtext-align-floatleft w-richtext-figure-type-image"> -->
+                  <div
+                    style="max-width: 15px; max-height: 15px; margin-top: 4px"
+                  >
+                    <img
+                      src="images/Group-1000004213.png"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <!-- </figure> -->
+                  <p>
+                    <!-- Golden Palace, Turner Rd, opposite Next to Union Bank, Bandra
+                    West, Mumbai, Maharashtra          400050 -->
+                    <script>
+                      document.write(language("FooterAddressPrive", localLang));
+                    </script>
+                  </p>
+                </div>
+                <figure
+                  style="max-width: 15px"
+                  class="w-richtext-align-floatleft w-richtext-figure-type-image"
+                >
+                  <div>
+                    <img src="images/Vector.png" loading="lazy" alt="" />
+                  </div>
+                </figure>
+                <p>+91-08976452911, +91-9152300777</p>
+              </div>
+              <div class="html-embed w-embed w-iframe">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60353.932235752305!2d72.79434879890826!3d19.01439945240265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c902f89684a7%3A0x93b36230b55b3208!2sAkina!5e0!3m2!1sen!2sin!4v1673807260736!5m2!1sen!2sin"
+                  width="100%"
+                  height="250"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-layout-grid grid-12">
+          <div
+            id="w-node-_671b2b91-5e07-822c-6d87-9726f98d38e8-f98d3895"
+            class="footer-copyright"
+          >
+            <!-- @2023 HAS Restaurants LLP All Rights Reserved -->
+            <script>
+              document.write(language("FooterBottomText", localLang));
+            </script>
+          </div>
+          <div
+            id="w-node-_671b2b91-5e07-822c-6d87-9726f98d38ea-f98d3895"
+            class="div-block-78"
+          >
+            <a href="privacy-policy.html" target="_blank" class="link">
+              <!-- Privacy Policy -->
+              <script>
+                document.write(language("PrivacyPolicy", localLang));
+              </script>
+            </a>
+          </div>
+          <div class="footer-social-block-two">
+            <a
+              href="https://www.instagram.com/akinamumbai/?hl=en"
+              class="footer-social-link w-inline-block"
+              ><img src="images/icon-1.png" loading="lazy" width="39" alt=""
+            /></a>
+            <a
+              href="https://facebook.com/akinamumbai/"
+              class="footer-social-link w-inline-block"
+              ><img src="images/icon.png" loading="lazy" width="36" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="div-block-29">
+      <a
+        href="https://furation.tech"
+        target="_blank"
+        class="link-block-2 w-inline-block"
+      >
+        <div
+          class="text-block-10 text-block-17 text-block-18 text-block-19 text-block-20 text-block-21 text-block-22 text-block-23 text-block-24 text-block-25 text-block-26 text-block-27 text-block-28 text-block-29 text-block-30 text-block-31 text-block-32 text-block-33 text-block-34 text-block-35 text-block-36 text-block-37 text-block-38 text-block-39 text-block-40 text-block-41 text-block-42 text-block-43 text-block-44 text-block-45 text-block-46 text-block-47 text-block-48 text-block-49 text-block-50 text-block-51 text-block-52 text-block-53 text-block-54 text-block-55 text-block-56 text-block-57 text-block-58"
+        >
+          <!-- Designed &amp; Developed by furation.tech -->
+          <script>
+            document.write(language("DesignedBy", localLang));
+          </script>
+        </div>
+      </a>
+    </div>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63b54871bad47141b4e24db4"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/timepicker-ui/2.3.0/timepicker-ui.umd.js"
+      integrity="sha512-a3QUlKZYbhDBhA0b++tX+QjrbEwk1DNTyCR7rzwM34AUx16sNOLDzh4JQhqV5xYLs010+xsnFjrDjz2jx2+qLw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      const DOMElement = document.querySelector(".timepicker-ui");
+      const options = {};
+      const newTimepicker = new window.tui.TimepickerUI(DOMElement, options);
+      newTimepicker.create();
+    </script>
+    <script>
+      var Webflow = Webflow || [];
+      Webflow.push(function () {
+        $(document).off("submit");
+        $("form").submit(function (evt) {
+          evt.preventDefault();
+          let fo = document.getElementById(evt.target.id);
+          fo.style.display = "none";
+        });
+      });
+      function setFormSubmitListen(
+        submitId,
+        formId,
+        tos,
+        subject,
+        radios = []
+      ) {
+        document
+          .getElementById(submitId)
+          .addEventListener("click", function (e) {
+            mailFormContent(formId, tos, subject, radios);
+          });
+      }
+      setFormSubmitListen(
+        "submit_enquiry_form",
+        "enquiry_form",
+        ["akinamumbai@sbeh.in"],
+        "Enquiry form"
+      );
+      //setFormSubmitListen("submit_careers_form2", "wf-form-Careers-Form", ["rounak@furation.tech"], "Careers Form");
+      //setFormSubmitListen("submit_franchise_form2", "franchise_form2", ["rounak@furation.tech"], "franchise Form");
+      function mailFormContent(formID, tos, subject, radios = []) {
+        const URL =
+          "https://mg6b3wltowcczauzm7kwe2xyme0zckdh.lambda-url.ap-south-1.on.aws/";
+        let form = document.getElementById(formID);
+        let fieldsHTMLColl = form.getElementsByClassName("form_field");
+        const mssgBody = {};
+        for (let f of fieldsHTMLColl) {
+          mssgBody[f.name] = f.value;
+          if (f.value == "" || f.value == null || f.value == undefined) {
+            return;
+          }
+        }
+        for (radioName of radios) {
+          let selVal = form.querySelector(
+            `input[type='radio'][name=${radioName}]:checked`
+          ).value;
+          mssgBody[radioName] = selVal;
+        }
+        mssgBody["Source"] = window.location.hostname;
+        let data = {
+          data: mssgBody,
+          subject: subject,
+          tos: tos,
+          from_source: "form_submission@akinarestaurant.com",
+        };
+        form.querySelector(".w-form-done").style.display = "block";
+        fetch(URL, { method: "POST", body: JSON.stringify(data) });
+      }
+    </script>
+    <script src="https://fengyuanchen.github.io/datepicker/js/datepicker.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="datepicker"]').datepicker({
+          format: "mm-dd-yyyy",
+        });
+        // Available date placeholders:
+        // Year: yyyy
+        // Month: mm
+        // Day: dd
+        if (window.innerWidth < 768) {
+          $('[data-toggle="datepicker"]').attr("readonly", "readonly");
+        }
+      });
+    </script>
+    <!--  You can put your custom CSS attributes  -->
+    <style>
+      /* You can apply your own color! 
+    --main-light-color is the light grey, 
+    --main-dark-color is the text
+    --main-active-color is the highlight
+    you can just add like red, or blue or any helx you like! */
+      :root {
+        --main-light-color: #a8a8a8;
+        --main-dark-color: #1c1c1e;
+        --main-active-color: #845ef7;
+      }
+
+      .datepicker-dropdown {
+        border-radius: 8px !important;
+        border: 0 !important;
+        -webkit-box-shadow: 0px 48px 88px rgba(23, 9, 54, 0.08);
+        box-shadow: 0px 48px 88px rgba(23, 9, 54, 0.08);
+        box-sizing: border-box;
+      }
+
+      .datepicker-panel > ul[data-view="week"] > li {
+        background-color: var(--main-light-color);
+        color: var(--main-dark-color);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        height: initial;
+        padding-top: 3px;
+        margin-bottom: 4px;
+      }
+
+      .datepicker-panel > ul[data-view="week"] > li:hover {
+        background-color: var(--main-light-color);
+        color: var(--main-dark-color);
+        border-radius: 0px;
+      }
+
+      .datepicker-panel > ul[data-view="week"] li:first-child {
+        border-radius: 20px 0 0 20px;
+      }
+
+      .datepicker-panel > ul[data-view="week"] li:last-child {
+        border-radius: 0 20px 20px 0;
+      }
+
+      .datepicker-top-left::before,
+      .datepicker-top-left::after {
+        display: none;
+      }
+
+      .datepicker-panel > ul > li.picked,
+      .datepicker-panel > ul > li.highlighted,
+      .datepicker-panel > ul > li.picked:hover {
+        color: var(--main-active-color);
+        background: var(--main-light-color);
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      li[data-view="month current"],
+      li[data-view="year current"] {
+        text-align: left;
+        color: var(--main-dark-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        /* line-height: 24px; */
+        padding-left: 15px;
+        border-radius: 10px;
+      }
+
+      .datepicker-panel > ul > li:hover {
+        background: var(--main-light-color);
+        border-radius: 10px;
+      }
+
+      li[data-view="month current"],
+      li[data-view="year current"],
+      li[data-view="years current"] {
+        margin-bottom: 4px !important;
+      }
+
+      @media screen and (min-width: 768px) {
+        .datepicker-dropdown {
+          width: 364px;
+          padding: 12px;
+        }
+
+        .datepicker-panel > ul > li {
+          width: 48px;
+          height: 48px;
+          padding-top: 10px;
+        }
+
+        li[data-view="month next"],
+        li[data-view="year next"],
+        li[data-view="years next"] {
+          position: absolute;
+          right: 18px;
+        }
+
+        li[data-view="month prev"],
+        li[data-view="year prev"],
+        li[data-view="years prev"] {
+          position: absolute;
+          right: 66px;
+        }
+
+        ul[data-view="months"] li,
+        ul[data-view="years"] li {
+          padding-top: 0px;
+          width: 57px !important;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .datepicker-panel {
+          transform: scale(0.97);
+        }
+      }
+    </style>
+  </body>
+</html>
